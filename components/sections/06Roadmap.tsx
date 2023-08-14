@@ -2,18 +2,33 @@ import { DRUK_WIDE } from "@/pages/_app";
 
 export default function Roadmap(){
     return(
-        <section id="06Roadmap" className="_section relative">
+        <section id="06Roadmap" className="_section relative mt-32">
             <div className="_wrapper">
 
-                <h2 className={`${DRUK_WIDE} _h`}>
+                <h2 className={`${DRUK_WIDE} _h text-_green`}>
                     Roadmap
                 </h2>
 
-                <div className="relative grid grid-cols-1 md:grid-cols-4 md:row-span-3">
+                <div className="px-5 mt-12 md:mt-24 relative grid grid-cols-6 grid-rows-4 md:grid-cols-4 md:grid-rows-none [&>div>ul]:list-image-[url(/img/06Roadmap/romb.svg)] [&>div>ul>li]:pl-3">
 
-                    <div className="col-span-1 md:col-start-1 md:col-end-3 md:row-start-1">
-                        <p>PHASE 1</p>
-                        <ul>
+                    <div className="-ml-2.5 md:ml-0 col-span-1 col-start-1 row-span-4 md:row-span-1 grid grid-cols-1 grid-rows-4 md:grid-rows-1 md:grid-cols-4 md:my-8 md:row-start-2 md:col-span-4 md:w-full border-[1px] border-_green w-1 md:h-1">
+                        <div className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 -mt-2.5 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                            <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] md:mt-[2px] md:w-[120%] md:-mr-1 "></div>
+                        </div>
+                        <div className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 -mt-2.5 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                            <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
+                        </div>
+                        <div className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 -mt-2.5 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                            <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
+                        </div>
+                        <div className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 -mt-2.5 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                            <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:!w-[120%]  md:-mx-1"></div>
+                        </div>
+                    </div>
+
+                    <div className="pb-14 col-span-5 md:col-start-1 md:col-end-3 md:row-start-1">
+                        <p className="text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 1</p>
+                        <ul className="mt-4 md:mt-5 _text-16-20">
                             <li>Create website</li>
                             <li>Presale and Launch</li>
                             <li>Marketing</li>
@@ -23,9 +38,9 @@ export default function Roadmap(){
                             <li>Buyback and Burn</li>
                         </ul>
                     </div>
-                    <div className="col-span-1 md:col-start-2 md:col-span-2 md:row-start-3">
-                        <p>PHASE 2</p>
-                        <ul>
+                    <div className="pb-14 col-span-5 md:col-start-2 md:col-span-2 md:row-start-3">
+                        <p className="text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 2</p>
+                        <ul className="mt-4 md:mt-5 _text-16-20">
                             <li>Listed on Coinmarketcap</li>
                             <li>Listed on Coingecko</li>
                             <li>Partnership with Marketing Agencies </li>
@@ -34,18 +49,9 @@ export default function Roadmap(){
                         </ul>
                     </div>
 
-                    <div className="grid grid-cols-4 md:my-8 md:row-start-2 md:col-span-4 w-full border-[1px] border-_green h-1">
-                        <div className="rounded-full border-[1px] border-_green h-10 w-10 -mt-5 -ml-1 bg-_black flex flex-col justify-center">
-                            <div className="bg-_black h-[2px] mt-[2px] w-[120%] -mr-1"></div>
-                        </div>
-                        <div className="rounded-full border-[1px] border-_green h-10 w-10 -mt-5 bg-_black"></div>
-                        <div className="rounded-full border-[1px] border-_green h-10 w-10 -mt-5 bg-_black"></div>
-                        <div className="rounded-full border-[1px] border-_green h-10 w-10 -mt-5 bg-_black"></div>
-                    </div>
-
-                    <div className="col-span-1 md:col-span-2 md:col-end-5 md:row-start-1">
-                        <p>PHASE 3</p>
-                        <ul>
+                    <div className="pb-14 col-span-5 md:col-span-2 md:col-end-5 md:row-start-1">
+                        <p className="text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 3</p>
+                        <ul className="mt-4 md:mt-5 _text-16-20">
                             <li>Global Marketing</li>
                             <li>NFT Launch</li>
                             <li>50000 Holders</li>
@@ -53,9 +59,9 @@ export default function Roadmap(){
                             <li>Exchange Listing CEX</li>
                         </ul>
                     </div>
-                    <div className="col-span-1 md:col-end-5 md:row-start-3">
-                        <p>PHASE 4</p>
-                        <ul>
+                    <div className="pb-14 col-span-5 md:col-span-1 md:col-end-5 md:row-start-3">
+                        <p className="text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 4</p>
+                        <ul className="mt-4 md:mt-5 _text-16-20">
                             <li>100 000 holders</li>
                             <li>New Exchange Listing CEX</li>
                             <li>Launching your own launchpad</li>

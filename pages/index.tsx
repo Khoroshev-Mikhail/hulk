@@ -12,7 +12,7 @@ export default function Home() {
             <Head>
                 <title>HULK</title>
                 <meta httpEquiv="content-language" content="en" />
-                <meta name="description" content="Shiba inu had an affair with a wolf and a wolf cub was born. His mission is to unite everyone and become the king of memecoins" />
+                <meta name="description" content="HULK MEM COACH is a fast growing community aiming to become one of the most popular  in the crypto world" />
                 <link rel="shortcut icon" href="/img/favicon.ico" />
             </Head>
             
@@ -21,7 +21,7 @@ export default function Home() {
             <Tokenomics />
             <Partners />
             <Roadmap />
-            {/* <Feedback /> */}
+            <Feedback />
         </>
   )
 }

@@ -15,7 +15,7 @@ body {
     @apply px-5 max-w-[1200px] mx-auto
 }
 ._h{
-    @apply uppercase text-left md:text-center block w-full
+    @apply uppercase text-center block w-full
         leading-[80%]
         text-[28px] xs:text-[36px] sm:text-[42px] md:text-[48px] lg:text-[56px] xl:text-[60px]
 }
@@ -24,6 +24,12 @@ body {
 }
 ._text-14-20{
     @apply text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] 
+}
+._text-16-20{
+    @apply text-[16px] sm:text-[18px] md:text-[20px]
+}
+._text-16-22{
+    @apply text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]
 }
 ._text-20-28{
     @apply text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] 

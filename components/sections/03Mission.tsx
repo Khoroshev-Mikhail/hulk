@@ -1,11 +1,10 @@
 import Image from "next/image";
 import coin from '../../public/img/03Mission/coin.png'
 import { DRUK_WIDE } from "@/pages/_app";
-import Ticker from "../elements/ticker";
 
 export default function Mission(){
     return(
-        <section id="03Mission" className="_section ">
+        <section id="03Mission" className="_section overflow-hidden">
             <div className="_wrapper pt-20 mt-20 relative flex flex-col justify-between gap-y-10 ">
 
                 <div className="absolute h-[120%] -z-50 -top-[5%] left-1/2 transform -translate-x-1/2 mx-auto aspect-square bg-[url('/img/03Mission/bg.png')] bg-center bg-cover bg-no-repeat">

@@ -6,7 +6,7 @@ import contract from '../../public/img/04Tokenomics/contract.svg'
 import sell from '../../public/img/04Tokenomics/sell.svg'
 import buy from '../../public/img/04Tokenomics/buy.svg'
 import Image from "next/image";
-import Ticker from "../elements/ticker";
+import Ticker from "../elements/Ticker";
 
 export default function Tokenomics(){
     const [isVisible, setIsVisible] = useState(false);
