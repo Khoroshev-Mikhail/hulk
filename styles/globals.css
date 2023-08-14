@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0E111A;
+    height: 100%;
+    min-width: 320px !important;
+}
+
+._section {
+    @apply w-full
+}
+._wrapper {
+    @apply px-5 max-w-[1200px] mx-auto
+}
+._h{
+    @apply uppercase text-left md:text-center block w-full
+        leading-[80%]
+        text-[28px] xs:text-[36px] sm:text-[42px] md:text-[48px] lg:text-[56px] xl:text-[60px]
+}
+._button{
+    @apply font-extrabold text-center text-[16px] xs:text-[18px] sm:text-[20px] md:text-[22px] py-3.5 sm:py-4 md:py-5 lg:py-7 rounded-lg md:rounded-[20px] uppercase block
+}
+._text-14-20{
+    @apply text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] 
+}
+._text-20-28{
+    @apply text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] 
+}
+._text-18-40{
+    @apply text-[18px] xs:text-[22px] sm:text-[26px] md:text-[32px] lg:text-[36px] xl:text-[40px] 
+}
+@keyframes _fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  /* Добавляем класс с анимацией */
+  ._animate-fade-out {
+    animation: _fade-out 3s ease-in-out;
+  }
