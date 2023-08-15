@@ -58,10 +58,10 @@ export default function Header(){
                 {/* Выдвижное меню */}
 
                 <div className="w-full max-w-[1200px] mx-auto relative flex flex-col justify-between">
-                    <p className="mt-4 block w-full text-center font-extrabold uppercase text-_green _text-14-20">
+                    <p data-aos="fade-right" data-aos-duration="1500" className="mt-4 block w-full text-center font-extrabold uppercase text-_green _text-14-20">
                         Pump yourself up with our team
                     </p>
-                    <h1 className={`${DRUK_WIDE} relative z-40 mt-4 block leading-[90%] w-full text-center text-[50px] xs:text-[60px] sm:text-[70px] md:text-[80px] lg:text-[90px] xl:text-[100px]`}>
+                    <h1 data-aos="fade-right" data-aos-duration="1500" className={`${DRUK_WIDE} relative z-40 mt-4 block leading-[90%] w-full text-center text-[50px] xs:text-[60px] sm:text-[70px] md:text-[80px] lg:text-[90px] xl:text-[100px]`}>
                         <span className="text-_green">HULK</span> MEM COACH
                     </h1>
 
@@ -73,10 +73,10 @@ export default function Header(){
                             <Image src={main} alt="hulk" className="hidden md:block relative z-40" />
                             <Image src={main_mobile} alt="hulk" className="w-full md:hidden relative z-40" />
 
-                            <Image src={coin_1} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] left-[2%] md:left-[8%] z-20"/>
-                            <Image src={coin_2} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] left-[12%] md:left-[18%] z-20" />
-                            <Image src={coin_4} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] right-[0%] md:right-[6%] z-20"/>
-                            <Image src={coin_3} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] right-[8%] md:right-[16%] z-20"/>
+                            <Image data-aos="zoom-in" data-aos-duration="3000" src={coin_1} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] left-[2%] md:left-[8%] z-20"/>
+                            <Image data-aos="zoom-in" data-aos-duration="3000" src={coin_2} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] left-[12%] md:left-[18%] z-20" />
+                            <Image data-aos="zoom-in" data-aos-duration="3000" src={coin_4} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] right-[0%] md:right-[6%] z-20"/>
+                            <Image data-aos="zoom-in" data-aos-duration="3000" src={coin_3} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] right-[8%] md:right-[16%] z-20"/>
 
                             <button className="w-[95%] md:w-auto absolute uppercase bg-_green -bottom-14 md:bottom-[1%] font-extrabold text-black py-5 px-10 xl:py-7 xl:px-20 rounded-[20px] left-1/2 md:left-[51%] _text-14-20 z-0 md:z-50 transform -translate-x-1/2 ">Buy now</button>
                         </div>

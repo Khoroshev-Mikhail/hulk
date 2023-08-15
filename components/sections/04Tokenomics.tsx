@@ -47,7 +47,7 @@ export default function Tokenomics(){
 
                 <div className="mt-[30px] md:mt-[60px] grid gird-cols-1 md:grid-cols-4 gap-2.5 md:gap-5">
 
-                    <div className="md:col-span-2 bg-_green-dark rounded-5 p-[30px] md:p-10">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="md:col-span-2 bg-_green-dark rounded-5 p-[30px] md:p-10">
                         <div>
                             <Image className="inline mr-4 mb-3" src={supply} alt="icon"/><p className="inline _text-20-28 font-extrabold">Total Supply</p>
                         </div>
@@ -55,7 +55,7 @@ export default function Tokenomics(){
                             10,000,000,000,00
                         </div>
                     </div>
-                    <div className="md:col-span-2 bg-_green-dark rounded-5 p-[30px] md:p-10">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="md:col-span-2 bg-_green-dark rounded-5 p-[30px] md:p-10">
                         <div>
                             <Image className="inline mr-4 mb-3" src={security} alt="icon"/><p className="inline _text-20-28 font-extrabold">Total Security</p>
                         </div>
@@ -63,7 +63,7 @@ export default function Tokenomics(){
                             Liquidity locked up for a 1 year
                         </div>
                     </div>
-                    <a href="https://bscscan.com/address/0x57a6d8E214C0CAb9FF3fB5d38F940f52026BbD64" className="block cursor-pointer md:col-span-2 md:order-none order-last bg-_green-dark rounded-5 p-[30px] md:p-10" >
+                    <a data-aos="fade-right" data-aos-duration="1500" href="https://bscscan.com/address/0x57a6d8E214C0CAb9FF3fB5d38F940f52026BbD64" className="block cursor-pointer md:col-span-2 md:order-none order-last bg-_green-dark rounded-5 p-[30px] md:p-10" >
                         <div>
                             <Image className="inline mr-4 mb-3" src={contract} alt="icon"/><p className="inline _text-20-28 font-extrabold">Smart Contract</p>
                         </div>
@@ -71,7 +71,7 @@ export default function Tokenomics(){
                             0x57a6d8E214C0CAb9FF3<wbr/>fB5d38F940f52026BbD64
                         </div>
                     </a>
-                    <div className="md:col-span-1 bg-_green-dark rounded-5 p-[30px] md:p-10">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="md:col-span-1 bg-_green-dark rounded-5 p-[30px] md:p-10">
                         <div>
                             <Image className="inline mr-4 mb-3" src={sell} alt="icon"/><p className="inline _text-20-28 font-extrabold">Sell Tax </p>
                         </div>
@@ -79,7 +79,7 @@ export default function Tokenomics(){
                             3%
                         </div>
                     </div>
-                    <div className="md:col-span-1 bg-_green-dark rounded-5 p-[30px] md:p-10">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="md:col-span-1 bg-_green-dark rounded-5 p-[30px] md:p-10">
                         <div>
                             <Image className="inline mr-4 mb-3" src={buy} alt="icon"/><p className="inline _text-20-28 font-extrabold">Buy Tax</p>
                         </div>

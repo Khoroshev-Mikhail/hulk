@@ -38,15 +38,15 @@ export default function Feedback(){
     return(
         <section id="07Feedback" className="_section pt-10 sm:pt-14 md:pt-20 overflow-hidden">
             <div className="_wrapper flex flex-col gap-y-5 md:flex-row justify-between">
-                <h2 className={`${DRUK_WIDE} _h w-full md:w-10/12 md:!text-left`}><span className="text-_green">ready</span> to be part of OUR TEAM?</h2>
+                <h2 data-aos="fade-right" data-aos-duration="1500" className={`${DRUK_WIDE} _h w-full md:w-10/12 md:!text-left`}><span className="text-_green">ready</span> to be part of OUR TEAM?</h2>
                 <div className="w-full md:w-2/12">
                     <Social white className="justify-center md:justify-end"/>
                 </div>
             </div>
             <div className="mt-[30px] md:mt-[60px] flex flex-col bg-_green rounded-[20px] !mx-5 max-w-[1200px] xl:!mx-auto relative">
-                <Image src={boom} alt="boom" className="absolute -top-[70px] -right-20 -z-50"/>
+                <Image data-aos="zoom-in" data-aos-duration="1500" src={boom} alt="boom" className="absolute -top-[70px] -right-20 -z-50"/>
                 <div className="flex flex-col">
-                    <div className="mt-6 md:mt-10 w-full text-black text-center _text-16-22 font-extrabold">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="mt-6 md:mt-10 w-full text-black text-center _text-16-22 font-extrabold">
                         You can send us your offer!
                     </div>
                     <form className="relative z-50 p-5 flex flex-col md:flex-row mt-[24px] md:mt-[30px] gap-2.5 text-black" onSubmit={sendForm}>
