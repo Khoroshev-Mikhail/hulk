@@ -4,12 +4,10 @@ import { DRUK_WIDE } from "@/pages/_app";
 
 export default function Mission(){
     return(
-        <section id="03Mission" className="_section overflow-hidden">
+        <section id="03Mission" className="_section overflow-hidden pb-[90px]">
             <div className="_wrapper pt-20 mt-20 relative flex flex-col justify-between gap-y-10 ">
 
-                <div className="absolute h-[120%] -z-50 -top-[5%] left-1/2 transform -translate-x-1/2 mx-auto aspect-square bg-[url('/img/03Mission/bg.png')] bg-center bg-cover bg-no-repeat">
-                    {/* BG_GRID */}
-                </div>
+                <div className="absolute w-full h-full -z-50  left-1/2 transform -translate-x-1/2 mx-auto  bg-[url('/img/bg.png')] bg-center bg-contain bg-no-repeat"></div>
 
                 <p className={`${DRUK_WIDE} leading-none _text-18-40 w-full block text-center uppercase`}>
                     <span className="text-_green">HULK MEM COACH</span> <br />
@@ -18,7 +16,11 @@ export default function Mission(){
                 <p className="text-_green mt-5 md:mt-7 md:w-1/2 mx-auto w-full block text-center _text-14-20 font-extrabold uppercase">
                     We are creating a modern ecosystem that will bring together people from all over the world to provide financial assistance to support sports around the world.
                 </p>
-                <Image src={coin} alt="Frog" className="block mx-auto"/>
+                <div className="relative mx-auto w-auto h-auto flex flex-col justify-center">
+                    {/* <div className="absolute -z-50 rounded-full w-full h-full bg-_green animate-ping"></div> */}
+                    <Image src={coin} alt="Frog" className="block mx-auto _animate-scale"/>
+                </div>
+                
 
             </div>
         </section>

@@ -16,7 +16,7 @@ body {
 }
 ._h{
     @apply uppercase text-center block w-full
-        leading-[80%]
+        leading-none
         text-[28px] xs:text-[36px] sm:text-[42px] md:text-[48px] lg:text-[56px] xl:text-[60px]
 }
 ._button{
@@ -24,6 +24,9 @@ body {
 }
 ._text-14-20{
     @apply text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] 
+}
+._text-12-20{
+    @apply text-[12px] xs:text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] 
 }
 ._text-16-20{
     @apply text-[16px] sm:text-[18px] md:text-[20px]
@@ -34,6 +37,9 @@ body {
 ._text-20-28{
     @apply text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] 
 }
+._text-18-28{
+    @apply text-[18px] xs:text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] 
+}
 ._text-18-40{
     @apply text-[18px] xs:text-[22px] sm:text-[26px] md:text-[32px] lg:text-[36px] xl:text-[40px] 
 }
@@ -43,6 +49,42 @@ body {
   }
   
   /* Добавляем класс с анимацией */
-  ._animate-fade-out {
+._animate-fade-out {
     animation: _fade-out 3s ease-in-out;
-  }
+}
+
+@keyframes _scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+}
+._animate-scale {
+    animation: _scale 5s ease-in-out infinite;
+}
+
+@keyframes _moveDown {
+    0%, 100% {
+        top: -25%;
+    }
+    50% {
+        top: 0%;
+    }
+}
+._animate-moveDown {
+    animation: _moveDown 10s ease-in-out infinite;
+}
+
+@keyframes _moveUp {
+    0%, 100% {
+        top: 0%;
+    }
+    50% {
+        top: -25%;
+    }
+}
+._animate-moveUp {
+    animation: _moveUp 10s ease-in-out infinite;
+}
