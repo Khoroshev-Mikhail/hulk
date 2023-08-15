@@ -4,7 +4,7 @@ import first from '../../public/img/05Partners/1.svg'
 import second from '../../public/img/05Partners/2.svg'
 import third from '../../public/img/05Partners/3.svg'
 import fourth from '../../public/img/05Partners/4.svg'
-import fifth from '../../public/img/05Partners/5.svg'
+import fifth from '../../public/img/05Partners/5.png'
 
 export default function Partners(){
     return(
@@ -27,7 +27,7 @@ export default function Partners(){
                         <Image data-aos="zoom-in" data-aos-duration="1500"  src={fourth} alt="" className="block"/>
                     </div>
                     <div className="col-span-3 sm:col-span-1 flex md:justify-center justify-start w-full pl-[10%]">
-                        <Image data-aos="zoom-in" data-aos-duration="1500"  src={fifth} alt="" className="block"/>
+                        <Image data-aos="zoom-in" data-aos-duration="1500"  src={fifth} alt="" className="block my-4"/>
                     </div>
                 </div>
             </div>
