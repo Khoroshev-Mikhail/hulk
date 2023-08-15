@@ -26,7 +26,6 @@ export default function Header(){
                         <div className="">
                             <Social />
                         </div>
-
                         <div className="flex flex-col justify-center pb-1 relative z-40 cursor-pointer" onClick={()=> setIsHidden(false) }>
                             <Image src={burger} alt="Menu" className="w-[39px] md:w-auto"/>
                         </div>
