@@ -34,11 +34,11 @@ export default function Tokenomics(){
                 Copied!
             </div>}
 
-            <div className="hidden md:block w-full h-[150%] absolute -bottom-1/4 -z-50 bg-[url('/img/eclipse.png')] bg-contain bg-no-repeat"></div>
-            <div className="hidden md:block w-full scale-x-[-1] h-[150%] absolute -top-1/2 -z-50 bg-[url('/img/eclipse.png')] bg-contain bg-no-repeat"></div>
-            <div className="md:hidden w-full h-full absolute left-0 -top-1/4 -z-50 bg-[url('/img/eclipse_mobile.png')] bg-left-top bg-contain bg-no-repeat"></div>
-            <div className="md:hidden w-full h-full absolute right-0 -bottom-[20%] scale-x-[-1] -z-50 bg-[url('/img/eclipse_mobile.png')] bg-left-bottom bg-contain bg-no-repeat"></div>
-            {/* <div className="md:hidden w-full h-full absolute left-0 -bottom-1/4 -z-50 bg-[url('/img/04Tokenomics/eclipse_l_b_mobile.png')] bg-left-bottom bg-contain bg-no-repeat"></div> */}
+            <div className="hidden md:block w-full h-[150%] absolute -bottom-1/4 -z-50 bg-[url('/img/eclipse.webp')] bg-contain bg-no-repeat"></div>
+            <div className="hidden md:block w-full scale-x-[-1] h-[150%] absolute -top-1/2 -z-50 bg-[url('/img/eclipse.webp')] bg-contain bg-no-repeat"></div>
+            <div className="md:hidden w-full h-full absolute left-0 -top-1/4 -z-50 bg-[url('/img/eclipse_mobile.webp')] bg-left-top bg-contain bg-no-repeat"></div>
+            <div className="md:hidden w-full h-full absolute right-0 -bottom-[20%] scale-x-[-1] -z-50 bg-[url('/img/eclipse_mobile.webp')] bg-left-bottom bg-contain bg-no-repeat"></div>
+            {/* <div className="md:hidden w-full h-full absolute left-0 -bottom-1/4 -z-50 bg-[url('/img/04Tokenomics/eclipse_l_b_mobile.webp')] bg-left-bottom bg-contain bg-no-repeat"></div> */}
 
             <div className="_wrapper">
             <h2 className={`${DRUK_WIDE} _h`}>
@@ -63,7 +63,7 @@ export default function Tokenomics(){
                             Liquidity locked up for a 1 year
                         </div>
                     </div>
-                    <div className="md:col-span-2 md:order-none order-last bg-_green-dark rounded-5 p-[30px] md:p-10" onClick={copy}>
+                    <div className="cursor-pointer md:col-span-2 md:order-none order-last bg-_green-dark rounded-5 p-[30px] md:p-10" onClick={copy}>
                         <div>
                             <Image className="inline mr-4 mb-3" src={contract} alt="icon"/><p className="inline _text-20-28 font-extrabold">Smart Contract</p>
                         </div>

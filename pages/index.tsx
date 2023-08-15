@@ -10,10 +10,10 @@ export default function Home() {
   return (
         <>
             <Head>
-                <title>HULK</title>
+                <title>HULK MEM COACH</title>
                 <meta httpEquiv="content-language" content="en" />
                 <meta name="description" content="HULK MEM COACH is a fast growing community aiming to become one of the most popular  in the crypto world" />
-                <link rel="shortcut icon" href="/img/favicon.ico" />
+                <link rel="shortcut icon" href="/img/favicon.png" />
             </Head>
             
             <Header />

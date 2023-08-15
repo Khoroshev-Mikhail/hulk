@@ -1,14 +1,13 @@
 import {  DRUK_WIDE } from "@/pages/_app";
 import Image from "next/image";
-import main_mobile from '../../public/img/02Header/main_mobile.png'
-import main from '../../public/img/02Header/main.png'
-import coin_1 from '../../public/img/02Header/coin_1.png'
-import coin_2 from '../../public/img/02Header/coin_2.png'
-import coin_3 from '../../public/img/02Header/coin_3.png'
-import coin_4 from '../../public/img/02Header/coin_4.png'
-import bg from '../../public/img/bg.png'
-import menu from '../../public/img/02Header/menu.png'
-import menu_mobile from '../../public/img/02Header/menu_mobile.png'
+import main_mobile from '../../public/img/02Header/main_mobile.webp'
+import main from '../../public/img/02Header/main.webp'
+import coin_1 from '../../public/img/02Header/coin_1.webp'
+import coin_2 from '../../public/img/02Header/coin_2.webp'
+import coin_3 from '../../public/img/02Header/coin_3.webp'
+import coin_4 from '../../public/img/02Header/coin_4.webp'
+import menu from '../../public/img/02Header/menu.webp'
+import menu_mobile from '../../public/img/02Header/menu_mobile.webp'
 import burger from '../../public/img/02Header/burger.svg'
 import cross from '../../public/img/02Header/cross.svg'
 import { useState } from "react";
@@ -20,27 +19,27 @@ export default function Header(){
     return(
         <section id="02Header" className="_section relative bg-_green p-1 md:p-4">
             <div className="relative flex flex-col bg-_black rounded-3xl">
-                <div className="absolute _animate-moveDown -top-1/4 -left-1 md:-left-4 h-full md:h-[130%] w-full md:bg-[url('/img/eclipse.png')] bg-[url('/img/eclipse_mobile.png')] bg-contain bg-left bg-no-repeat"></div>
-                <div className="absolute _animate-moveUp bottom-0 -right-1 md:-right-4 scale-x-[-1] h-full md:h-[130%] w-full md:bg-[url('/img/eclipse.png')] bg-[url('/img/eclipse_mobile.png')] bg-contain bg-left bg-no-repeat"></div>
+                <div className="absolute _animate-moveDown -top-1/4 -left-1 md:-left-4 h-full md:h-[130%] w-full md:bg-[url('/img/eclipse.webp')] bg-[url('/img/eclipse_mobile.webp')] bg-contain bg-left bg-no-repeat"></div>
+                <div className="absolute _animate-moveUp bottom-0 -right-1 md:-right-4 scale-x-[-1] h-full md:h-[130%] w-full md:bg-[url('/img/eclipse.webp')] bg-[url('/img/eclipse_mobile.webp')] bg-contain bg-left bg-no-repeat"></div>
                 <div className="_wrapper w-full">
                     <div className="flex justify-between my-4 md:my-8 xl:my-10">
                         <div className="">
                             <Social />
                         </div>
 
-                        <div className="flex flex-col justify-center pb-1 relative z-40" onClick={()=> setIsHidden(false) }>
+                        <div className="flex flex-col justify-center pb-1 relative z-40 cursor-pointer" onClick={()=> setIsHidden(false) }>
                             <Image src={burger} alt="Menu" className="w-[39px] md:w-auto"/>
                         </div>
                     </div>
                 </div>
 
                 {/* Выдвижное меню */}
-                <div className={`${isHidden ? 'hidden' : 'block'} absolute z-50 top-0 left-0 w-full min-h-screen bg-_green md:bg-[url('/img/02Header/menu.png')] bg-[url('/img/02Header/menu_mobile.png')] bg-cover bg-bottom md:bg-right-bottom bg-no-repeat rounded-b-2xl `}>
-                {/* bg-_green md:bg-[url('/img/02Header/menu.png')] bg-[url('/img/02Header/menu_mobile.png')] bg-cover bg-bottom md:bg-right-bottom bg-no-repeat */}
-                    <div className="relative">
-                        {/* <Image src={menu} alt="" className="absolute hidden md:block bottom-0 right-0 w-full" />
-                        <Image src={menu_mobile} alt="" className="absolute md:hidden bottom-0 right-0 w-full" /> */}
-                        <menu className={`${DRUK_WIDE} _wrapper text-[40px] sm:text-[48px] md:text-[56px] lg:text-[60px] xl:text-[66px] text-black`}>
+                <div className={`${isHidden ? 'hidden' : 'block'} absolute z-50 top-0 left-0 w-full min-h-screen bg-_green rounded-b-2xl `}>
+                {/* md:bg-[url('/img/02Header/menu.webp')] bg-[url('/img/02Header/menu_mobile.webp')] bg-cover bg-bottom md:bg-right-bottom bg-no-repeat */}
+                    <div className="">
+                        <Image src={menu} alt="" className="absolute max-w-[1200px] hidden md:block bottom-0 right-0 w-full" />
+                        <Image src={menu_mobile} alt="" className="absolute md:hidden bottom-0 right-0 w-full" />
+                        <menu className={`${DRUK_WIDE} _wrapper relative z-50 text-[40px] sm:text-[48px] md:text-[56px] lg:text-[60px] xl:text-[66px] text-black`}>
                             <li className="flex justify-end py-[13px] sm:py-[26px] md:py-[39px]">
                                 <Image className="cursor-pointer w-[30px] h-[30px] sm:w-[49px] sm:h-[49px]" src={ cross } alt="menu-toggle" onClick={()=> setIsHidden(true) }/>
                             </li>
@@ -68,7 +67,7 @@ export default function Header(){
 
                     <div className="mt-8 w-full pb-16 md:pb-[5%] md:px-[5%]">
                         <div className="relative z-20 w-auto h-auto">
-                            <div className="absolute w-full h-[200%] md:h-[140%] -z-50 bottom-0 bg-[url('/img/bg.png')] bg-contain bg-no-repeat bg-bottom">
+                            <div className="absolute w-full h-[200%] md:h-[140%] -z-50 bottom-0 bg-[url('/img/bg.webp')] bg-contain bg-no-repeat bg-bottom">
 
                             </div>
                             <Image src={main} alt="hulk" className="hidden md:block relative z-40" />
