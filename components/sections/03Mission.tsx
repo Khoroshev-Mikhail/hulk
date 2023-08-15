@@ -6,7 +6,6 @@ export default function Mission(){
     return(
         <section id="03Mission" className="_section overflow-hidden pb-[90px]">
             <div className="_wrapper pt-20 mt-20 relative flex flex-col justify-between gap-y-10 ">
-
                 <div className="absolute w-full h-full -z-50  left-1/2 transform -translate-x-1/2 mx-auto  bg-[url('/img/bg.webp')] bg-center bg-contain bg-no-repeat"></div>
 
                 <p className={`${DRUK_WIDE} leading-none _text-18-40 w-full block text-center uppercase`}>
@@ -20,8 +19,6 @@ export default function Mission(){
                     {/* <div className="absolute -z-50 rounded-full w-full h-full bg-_green animate-ping"></div> */}
                     <Image src={coin} alt="Frog" className="block w-1/2 md:w-[263px] mx-auto _animate-scale"/>
                 </div>
-                
-
             </div>
         </section>
     )

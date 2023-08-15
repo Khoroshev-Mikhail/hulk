@@ -51,7 +51,7 @@ export default function Tokenomics(){
                         <div>
                             <Image className="inline mr-4 mb-3" src={supply} alt="icon"/><p className="inline _text-20-28 font-extrabold">Total Supply</p>
                         </div>
-                        <div className="_text-14-20">
+                        <div className="_text-14-20 font-extrabold">
                             10,000,000,000,00
                         </div>
                     </div>
@@ -59,23 +59,23 @@ export default function Tokenomics(){
                         <div>
                             <Image className="inline mr-4 mb-3" src={security} alt="icon"/><p className="inline _text-20-28 font-extrabold">Total Security</p>
                         </div>
-                        <div className="_text-14-20">
+                        <div className="_text-14-20 font-extrabold">
                             Liquidity locked up for a 1 year
                         </div>
                     </div>
-                    <div className="cursor-pointer md:col-span-2 md:order-none order-last bg-_green-dark rounded-5 p-[30px] md:p-10" onClick={copy}>
+                    <a href="https://bscscan.com/address/0x57a6d8E214C0CAb9FF3fB5d38F940f52026BbD64" className="block cursor-pointer md:col-span-2 md:order-none order-last bg-_green-dark rounded-5 p-[30px] md:p-10" >
                         <div>
                             <Image className="inline mr-4 mb-3" src={contract} alt="icon"/><p className="inline _text-20-28 font-extrabold">Smart Contract</p>
                         </div>
-                        <div className="_text-14-20">
+                        <div className="_text-14-20 font-extrabold">
                             0x57a6d8E214C0CAb9FF3<wbr/>fB5d38F940f52026BbD64
                         </div>
-                    </div>
+                    </a>
                     <div className="md:col-span-1 bg-_green-dark rounded-5 p-[30px] md:p-10">
                         <div>
                             <Image className="inline mr-4 mb-3" src={sell} alt="icon"/><p className="inline _text-20-28 font-extrabold">Sell Tax </p>
                         </div>
-                        <div className="_text-14-20">
+                        <div className="_text-14-20 font-extrabold">
                             3%
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default function Tokenomics(){
                         <div>
                             <Image className="inline mr-4 mb-3" src={buy} alt="icon"/><p className="inline _text-20-28 font-extrabold">Buy Tax</p>
                         </div>
-                        <div className="_text-14-20">
+                        <div className="_text-14-20 font-extrabold">
                             0%
                         </div>
                     </div>

@@ -36,8 +36,8 @@ export default function Roadmap(){
                         <div>
                             
                         </div>
-                        <p className="_text-18-28 text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 1</p>
-                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20">
+                        <p className="_text-18-28 font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 1</p>
+                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20 font-extrabold">
                             <li>Create website</li>
                             <li>Presale and Launch</li>
                             <li>Marketing</li>
@@ -48,8 +48,8 @@ export default function Roadmap(){
                         </ul>
                     </div>
                     <div className="pb-14 md:pb-0 col-span-5 md:col-start-2 md:col-span-2 md:row-start-3">
-                        <p className="_text-18-28 text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 2</p>
-                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20">
+                        <p className="_text-18-28 font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 2</p>
+                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20 font-extrabold">
                             <li>Listed on Coinmarketcap</li>
                             <li>Listed on Coingecko</li>
                             <li>Partnership with Marketing Agencies </li>
@@ -59,8 +59,8 @@ export default function Roadmap(){
                     </div>
 
                     <div className="pb-14 md:pb-0 col-span-5 md:col-span-2 md:col-end-5 md:row-start-1">
-                        <p className="_text-18-28 text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 3</p>
-                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20">
+                        <p className="_text-18-28 font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 3</p>
+                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20 font-extrabold">
                             <li>Global Marketing</li>
                             <li>NFT Launch</li>
                             <li>50000 Holders</li>
@@ -69,8 +69,8 @@ export default function Roadmap(){
                         </ul>
                     </div>
                     <div className="pb-14 md:pb-0 col-span-5 md:col-span-1 md:col-end-5 md:row-start-3">
-                        <p className="_text-18-28 text-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 4</p>
-                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20">
+                        <p className="_text-18-28 font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-_green from-25% to-white to-80%">Phase 4</p>
+                        <ul className="pl-3.5 mt-4 md:mt-5 _text-16-20 font-extrabold">
                             <li>100 000 holders</li>
                             <li>New Exchange Listing CEX</li>
                             <li>Launching your own launchpad</li>
