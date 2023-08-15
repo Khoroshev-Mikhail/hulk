@@ -38,7 +38,7 @@ export default function Header(){
                     <div className="">
                         <Image src={menu} alt="" className="absolute max-w-[1200px] hidden md:block bottom-0 right-0 w-full" />
                         <Image src={menu_mobile} alt="" className="absolute md:hidden bottom-0 right-0 w-full" />
-                        <menu className={`${DRUK_WIDE} _wrapper relative z-50 text-[40px] sm:text-[48px] md:text-[56px] lg:text-[60px] xl:text-[66px] text-black`}>
+                        <menu className={`${DRUK_WIDE} _wrapper relative z-50 text-[24px] xs:text-[36px] sm:text-[48px] md:text-[56px] lg:text-[60px] xl:text-[66px] text-black`}>
                             <li className="flex justify-end py-[13px] sm:py-[26px] md:py-[39px]">
                                 <Image className="cursor-pointer w-[30px] h-[30px] sm:w-[49px] sm:h-[49px]" src={ cross } alt="menu-toggle" onClick={()=> setIsHidden(true) }/>
                             </li>
@@ -47,6 +47,7 @@ export default function Header(){
                             <li className="flex justify-end md:justify-start w-full"><a href="#05Partners">PARTNERS</a></li>
                             <li className="flex justify-end md:justify-start w-full"><a href="#06Roadmap">ROADMAP</a></li>
                             <li className="flex justify-end md:justify-start w-full"><a href="#07Feedback">CONTACTS</a></li>
+                            <li className="flex justify-end md:justify-start w-full"><a href="https://instruction.hulkmemcoach.top">WHITE PAPER</a></li>
                             <li className="flex justify-end md:justify-start w-full py-[60px] xl:py-[100px] ">
                                 <Social />
                             </li>

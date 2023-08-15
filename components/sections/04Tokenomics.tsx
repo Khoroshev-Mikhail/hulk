@@ -67,7 +67,7 @@ export default function Tokenomics(){
                         <div>
                             <Image className="inline mr-4 mb-3" src={contract} alt="icon"/><p className="inline _text-20-28 font-extrabold">Smart Contract</p>
                         </div>
-                        <div className="_text-14-20 font-extrabold">
+                        <div className="_text-14-20 font-extrabold underline hover:no-underline">
                             0x57a6d8E214C0CAb9FF3<wbr/>fB5d38F940f52026BbD64
                         </div>
                     </a>
