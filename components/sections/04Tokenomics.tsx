@@ -52,7 +52,7 @@ export default function Tokenomics(){
                             <Image className="inline mr-4 mb-3" src={supply} alt="icon"/><p className="inline _text-20-28 font-extrabold">Total Supply</p>
                         </div>
                         <div className="_text-14-20 font-extrabold">
-                        1000,000,000,000
+                            1000,000,000,000
                         </div>
                     </div>
                     <div data-aos="fade-right" data-aos-duration="1500" className="md:col-span-2 bg-_green-dark rounded-5 p-[30px] md:p-10">

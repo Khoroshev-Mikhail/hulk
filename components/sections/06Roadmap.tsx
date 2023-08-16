@@ -18,16 +18,16 @@ export default function Roadmap(){
                 <div className="px-5 mt-12 md:mt-24 relative grid grid-cols-6 grid-rows-4 md:grid-cols-4 md:grid-rows-none [&>div>ul]:list-image-[url(/img/06Roadmap/romb.svg)] [&>div>ul>li]:pl-3">
 
                     <div data-aos="zoom-in-right" data-aos-duration="3000" className="-ml-2.5 md:ml-0 col-span-1 col-start-1 row-span-4 md:row-span-1 grid grid-cols-1 grid-rows-4 md:grid-rows-1 md:grid-cols-4 md:my-8 md:row-start-2 md:col-span-4 md:w-full border-[1px] border-_green w-1 md:h-1">
-                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="3000" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-1 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1500" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-1 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
                             <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] md:mt-[2px] md:w-[120%] md:-mr-1 "></div>
                         </div>
-                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="3000" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1500" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
                             <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
                         </div>
-                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="3000" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1500" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
                             <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
                         </div>
-                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="3000" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
+                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1500" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
                             <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:!w-[120%]  md:-mx-1"></div>
                         </div>
                     </div>
