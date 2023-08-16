@@ -22,13 +22,13 @@ export default function Roadmap(){
                             <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] md:mt-[2px] md:w-[120%] md:-mr-1 "></div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="2100" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
-                            <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
+                            <div className="bg-_black md:h-[2px] h-[104%] ml-[2px] w-[2px] -mt-[2%] md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="2300" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
-                            <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
+                            <div className="bg-_black md:h-[2px] h-[104%] ml-[2px] w-[2px] -mt-[2%] md:mt-[2px] md:w-[120%]  md:-mx-1"></div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="2500" className="row-span-1 rounded-full border-[1px] border-_green h-10 w-10 -ml-5 md:-ml-0 -mt-1 md:-mt-5 bg-_black flex md:flex-col justify-center">
-                            <div className="bg-_black md:h-[2px] h-[120%] ml-[2px] w-[2px] -mt-1 md:mt-[2px] md:!w-[120%]  md:-mx-1"></div>
+                            <div className="bg-_black md:h-[2px] h-[104%] ml-[2px] w-[2px] -mt-[2%] md:mt-[2px] md:!w-[120%]  md:-mx-1"></div>
                         </div>
                     </div>
 
