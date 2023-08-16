@@ -64,9 +64,7 @@ export default function Feedback(){
                     <Image src={hulk} alt="HULK" className="hidden md:block w-full relative z-50"/>
                     <Image src={hulk_mobile} alt="HULK" className="md:hidden w-full relative z-50 rounded-b-5"/>
 
-                    <div className="w-4/5 h-full absolute z-10 bottom-0 left-1/2 -translate-x-1/2 transform  bg-[url('/img/bg.webp')] bg-cover bg-top-center">
-
-                    </div>
+                    <div className="w-4/5 h-full absolute z-10 bottom-0 left-1/2 -translate-x-1/2 transform  bg-[url('/img/bg.webp')] bg-contain md:bg-cover bg-top-center"></div>
                 </div>
             </div>
             <div className="mt-10 md:mt-20">
