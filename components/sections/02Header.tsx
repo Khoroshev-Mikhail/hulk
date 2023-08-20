@@ -78,7 +78,7 @@ export default function Header(){
                             <Image data-aos="zoom-in" data-aos-duration="1500" src={coin_4} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] right-[0%] md:right-[6%] z-20"/>
                             <Image data-aos="zoom-in" data-aos-duration="1500" src={coin_3} alt="Mem-Coin" className="_animate-scale w-[15%] absolute -bottom-[1%] md:-bottom-[6%] right-[8%] md:right-[16%] z-20"/>
 
-                            <button className="w-[95%] md:w-auto absolute uppercase bg-_green -bottom-14 md:bottom-[1%] font-extrabold text-black py-5 px-10 xl:py-7 xl:px-20 rounded-[20px] left-1/2 md:left-[51%] _text-14-20 z-0 md:z-50 transform -translate-x-1/2 ">Buy now</button>
+                            <a href="https://www.pinksale.finance/launchpad/0xbbe8C21F6E1ce303974f7066373F9D318033c89f?chain=BSC" className="w-[95%] block md:w-auto absolute uppercase bg-_green -bottom-14 md:bottom-[1%] font-extrabold text-black py-5 px-10 xl:py-7 xl:px-20 rounded-[20px] left-1/2 md:left-[51%] _text-14-20 z-0 md:z-50 transform -translate-x-1/2 ">Buy now</a>
                         </div>
                         
                     </div>
